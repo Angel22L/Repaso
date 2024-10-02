@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: #575757;
+}
+
+/* Descripción en la página de inicio */
+.descripcion {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Formulario de contacto */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #575757;
+}
+
+/* Galería de imágenes */
+.galeria {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-container img {
+    width: 100%;
+    border-radius: 5px;
+}
